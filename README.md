@@ -8,21 +8,21 @@ RubySpeech is a library for constructing and parsing Text to Speech (TTS) and Au
 
 ## Dependencies
 
-### pcre (except on JRuby)
+### pcre2 (except on JRuby)
 
 #### On OSX with Homebrew
 ```
-brew install pcre
+brew install pcre2
 ```
 
 #### On Ubuntu/Debian
 ```
-sudo apt-get install libpcre3 libpcre3-dev
+sudo apt-get install libpcre2-8-0 libpcre2-dev
 ```
 
 #### On CentOS
 ```
-sudo yum install pcre-devel
+sudo yum install pcre2-devel
 ```
 
 ## Installation
