@@ -25,6 +25,8 @@ Gem::Specification.new do |s|
     s.extensions = ['ext/ruby_speech/extconf.rb']
   end
 
+  s.required_ruby_version = '>= 3.3'
+
   s.add_runtime_dependency %q<nokogiri>, ["~> 1.8", ">= 1.8.3"]
   s.add_runtime_dependency %q<activesupport>, [">= 3.0.7"]
 
