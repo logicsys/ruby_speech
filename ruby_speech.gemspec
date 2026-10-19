@@ -33,19 +33,14 @@ Gem::Specification.new do |s|
   s.add_development_dependency %q<bundler>, [">= 1.0.0"]
   s.add_development_dependency %q<rspec>, ["~> 3.0"]
   s.add_development_dependency %q<rspec-its>, [">= 0"]
-  s.add_development_dependency %q<ci_reporter>, ["~> 1.6"]
+  s.add_development_dependency %q<ci_reporter_rspec>, ["~> 1.0"]
   s.add_development_dependency %q<yard>, [">= 0.7.0"]
   s.add_development_dependency %q<rake>, [">= 0"]
   s.add_development_dependency %q<guard>, [">= 0.9.0"]
   s.add_development_dependency %q<guard-rspec>, [">= 0"]
-  s.add_development_dependency %q<listen>, ["< 3.1.0"]
+  s.add_development_dependency %q<listen>, ["~> 3.0"]
   s.add_development_dependency %q<ruby_gntp>, [">= 0"]
   s.add_development_dependency %q<guard-rake>, [">= 0"]
   s.add_development_dependency %q<rake-compiler>, [">= 0"]
   s.add_development_dependency %q<coveralls>, [">= 0"]
-
-  if RUBY_VERSION < '2.0'
-    s.add_development_dependency %q<term-ansicolor>, ["< 1.3.1"]
-    s.add_development_dependency %q<tins>, ["~> 1.6.0"]
-  end
 end
